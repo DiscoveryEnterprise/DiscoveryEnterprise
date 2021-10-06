@@ -18,6 +18,9 @@ body {
   text-align: center;
   color: white;
 }
+#content{
+  background-image: url("Backgrounds/bodybg3.jpg");
+}
 #mark{
   position:fixed;
   right:10px;
@@ -29,6 +32,23 @@ body {
   color: white;
   position: inherit;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #000000;
+  border-radius: 8px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #04AA6D;}
+
 .sidebar {
   margin: 0;padding: 0;width: 200px;background-color: #e6e6e6;position: absolute;height: 100%;overflow:auto; height: 700px;border-radius:20px;}
 .sidebar a {display: block;color: black;padding: 16px;text-decoration: none;}
