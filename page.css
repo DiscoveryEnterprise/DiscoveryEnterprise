@@ -1,0 +1,41 @@
+body {
+ background-image: url("Backgrounds/bodybg3.jpg");
+ background-size: contain;
+ background-color:#595959;
+ color:white;
+}
+#header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#main{
+  border-style: solid; border-radius:50px;border-color: #000000;background-color:#000000;margin:30px;
+  position:relative;
+  align-content: center;
+  position: inherit;
+  text-align: center;
+  color: white;
+}
+#mark{
+  position:fixed;
+  right:10px;
+  top:530px;
+  text-align: right;
+}
+
+#footer{
+  color: white;
+  position: inherit;
+}
+.sidebar {
+  margin: 0;padding: 0;width: 200px;background-color: #e6e6e6;position: absolute;height: 100%;overflow:auto; height: 700px;border-radius:20px;}
+.sidebar a {display: block;color: black;padding: 16px;text-decoration: none;}
+.sidebar a.active {background-color: #04AA6D;color: white;}
+.sidebar a:hover:not(.active) {background-color: #555;color: white;}
+.chapter :hover:not(.active) {background-color: #D4AF37;color: white;border-radius:10px;padding:5px}
+#main{margin-left: 200px;padding: 1px 16px;height: 680px;}
+@media screen and (max-width: 700px) {.sidebar {width: 100%;height: auto;position: relative;}
+  .sidebar a {float: left;}
+@media screen and (max-width: 400px) {.sidebar a {text-align: center;float: none;}
