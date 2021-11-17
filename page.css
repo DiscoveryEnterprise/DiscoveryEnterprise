@@ -9,25 +9,21 @@ body {
   text-align: center;
   color: white;
 }
-
 #main{
-  border-style: solid; border-radius:50px;border-color: #000000;background-color:#000000;margin:30px;
   position:relative;
   align-content: center;
-  position: inherit;
   text-align: center;
   color: white;
 }
 #mark{
-  position:fixed;
+  position: fixed;
   right:10px;
   bottom:5px;
 }
-
 #footer{
-  color: white;
   position: inherit;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 14px;
