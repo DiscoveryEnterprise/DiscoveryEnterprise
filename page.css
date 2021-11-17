@@ -18,14 +18,10 @@ body {
   text-align: center;
   color: white;
 }
-#content{
-  background-image: url("Backgrounds/bodybg3.jpg");
-}
 #mark{
   position:fixed;
   right:10px;
-  top:530px;
-  text-align: right;
+  bottom:5px;
 }
 
 #footer{
